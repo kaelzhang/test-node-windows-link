@@ -12,3 +12,6 @@ fs.symlink(node_path.join(__dirname, 'c'), node_path.join(__dirname, 'c.js'));
 fs.symlink(node_path.join(__dirname, 'd'), node_path.join(__dirname, 'd.js'), 'dir');
 
 fs.symlink(node_path.join(__dirname, 'e'), node_path.join(__dirname, 'e.js'), 'junction');
+
+fs.link(node_path.join(__dirname, 'f'), node_path.join(__dirname, 'f.js'));
+fs.link(node_path.join(__dirname, 'g'), node_path.join(__dirname, 'g.js'));
